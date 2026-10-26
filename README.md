@@ -80,8 +80,8 @@ After cloning the repository, move into its directory and create a virtual
 environment:
 
 ```bash
-git clone https://github.com/<your-github-username>/<your-repository>.git
-cd <your-repository>
+git clone https://github.com/fwz-blk/cifar10-cnn-pytorch.git
+cd cifar10-cnn-pytorch
 python -m venv .venv
 source .venv/bin/activate
 ```
@@ -97,10 +97,6 @@ Install the dependencies:
 ```bash
 python -m pip install torch torchvision jupyter
 ```
-
-The current local repository does not have a configured GitHub remote, so the
-clone URL above is a template. Replace the placeholders with the URL of the
-GitHub repository you create.
 
 ## How to run
 
